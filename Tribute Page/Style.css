@@ -1,0 +1,80 @@
+        body {
+            background-color: #171515;
+            color: #e9e5e5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin: 2rem;
+            text-align: center;
+            font-size: 3rem;
+        }
+        .container{
+            margin: 4rem;
+            padding: 20px;
+        }
+        .container li{
+          font-size: 2.5rem;
+        }
+        .profile-img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        }
+        .qualities {
+            margin-top: 20px;
+            text-align: justify;
+        }
+        .qualities h2{
+          text-align: center;
+          color: blueviolet;
+          font-size: 4rem;
+        }
+        .qualities h3{
+          font-size: 2rem;
+          color: chocolate;
+          font-size: 3rem;
+        }
+        .quote{
+          font-size: 1.6rem;
+          color: crimson;
+          background: white;
+          max-width: fit-content;
+        }
+        .quotes p, h3{
+          font-size: 3rem;
+
+        }
+        .quotes img{
+          width: 300px;
+          height: 300px;
+        }
+        .quotes div{
+          width: 300px;
+          margin: 10px;
+          flex-basis: 16%;
+          flex-wrap: wrap;
+        }
+        .quotes{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            font-size: 2rem;
+            height: 10%;
+            bottom: 0;
+        }
+    
